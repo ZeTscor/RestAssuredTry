@@ -1,6 +1,3 @@
-import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.http.ContentType;
-import io.restassured.specification.RequestSpecification;
 import jacson.CreateUserRequest;
 import jacson.CreateUserResponse;
 import jacson.UserPojoFull;
@@ -9,7 +6,6 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import utils.RestWrapper;
 import utils.UserGenerator;
-import steps.UserSteps;
 
 import java.util.List;
 
